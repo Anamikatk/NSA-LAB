@@ -13,7 +13,7 @@
 
 
 #!/bin/bash
-count=$(($(w|wc -l)-2))
+count=$(($(w|wc -l)-1))
 
 echo "There are $count user logged in "
 
